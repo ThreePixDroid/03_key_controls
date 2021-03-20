@@ -10,6 +10,6 @@ export class KeyControls {
   changeState(e) {
     if (!this.keysList.includes(e.code)) return
     this.keys[e.code] = e.type === 'keydown' ? true : false
-    console.log(this.keys)
+    //console.log(this.keys)
   }
 }
